@@ -10,5 +10,5 @@ hogy használhatóak legyenek "real world" szituációkban is.
 
 ## Jegyzetek implementált algoritmusokhoz
 
- - [Lengyel jelölés](Lenygel.md)
+ - [Lengyel jelölés](Lengyel.md)
  - [Összefésülő rendezés](MergeSort.md)
