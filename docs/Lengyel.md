@@ -62,10 +62,10 @@ Balról jobbra haladunk a kifejezésen
  - Ha egy operandus jön velünk szembe, akkor azt hozzáadjuk a kimenethez.
  - Ha egy nyitott zárójel jön velünk szembe, akkor a verembe tesszük
  - Ha egy csukott zárójellel találkozunk, akkor addig szedjük ki és adjuk a kimenethez a verem elemeit, míg nyitott zárójellel nem találkozunk. Végül azt is kivesszük.
- - Ha operátorral ralálkozunk, akkor mindaddig szedjük és írjük ki a verem elemeit, míg magasabb precedenciájú elemmel, vagy zárójellel nem találkozunk. Végül betesszük a kurrens operátort a verembe.
+ - Ha operátorral találkozunk, akkor mindaddig szedjük és írjük ki a verem elemeit, míg magasabb precedenciájú elemmel, vagy zárójellel nem találkozunk. Végül betesszük a kurrens operátort a verembe.
  - Utolsó lépésként kiírjuk az összes veremben maradt operátort.
 
- ### Ezek alapján egy példa:
+### Ezek alapján egy példa:
 
     input := (2 + 3) * 5
 Első karakter: '(', tehát a verembe helyezzük.
