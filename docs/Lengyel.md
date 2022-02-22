@@ -53,7 +53,7 @@ A folyamat hasonlít a feljebb tárgyalt kiértékeléshez, annyi különbségge
 ### Struktogramm
 Előzetesen itt egy struktogramm, ha valaki pont ezt keresné.
 
-![infix2postfix struki](/docs/assets/LengyelStruki.png)
+![infix2postfix struki](/Algoritmusok/assets/LengyelStruki.png)
 
 ### Az algoritmus logikai lépései
 
