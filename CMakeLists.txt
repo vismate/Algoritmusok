@@ -12,6 +12,7 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -Wshadow -Wunused")
 
 add_compile_definitions(MERGE_SORT) # <- Írd ide
 
-file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/ *.cpp *.hpp *.h *.c)
+file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp *.hpp *.h *.c)
+message(${SOURCES})
 
 add_executable(${PROJECT_NAME} ${SOURCES})
