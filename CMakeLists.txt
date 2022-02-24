@@ -10,7 +10,7 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -Wshadow -Wunused")
 #LENGYEL
 #MERGE_SORT
 
-add_compile_definitions(MERGE_SORT) # <- Írd ide
+add_compile_definitions(LENGYEL) # <- Írd ide
 
 file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp *.hpp *.h *.c)
 message(${SOURCES})

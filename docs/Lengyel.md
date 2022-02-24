@@ -1,6 +1,8 @@
-# (Fordított) Lengyel jelölés - aka.: postfix
+# Lengyel jelölés (postfix notation) 
 
-A lengyel jelölés lényege, hogy az általában binért operátorok az operandusai után vannak jelölve.
+<sup>[C++ implementáció](https://github.com/vismate/Algoritmusok/blob/main/src/Lengyel.cpp)</sup>
+
+A lengyel jelölés lényege, hogy az operátorok az operandusai után vannak jelölve.
     
     a + b = a b +
     a + b * c = a b c * +
@@ -10,8 +12,8 @@ A lengyel jelölés lényege, hogy az általában binért operátorok az operand
 
 Balról jobbra haladunk a kifejezésen
  
- - Ha egy operandus jön velünk szembe, egy verembe tesszük
- - Ha egy operátor jön velünk szembe, akkor 2 értéket kiszedünk a veremből, elvégezzük az műveletet, majd az eredmény ismét a verembe tesszük
+ - Ha egy operandus jön velünk szembe, egy verembe tesszük.
+ - Ha egy operátor jön velünk szembe, akkor 2 értéket kiszedünk a veremből, elvégezzük a műveletet, majd az eredmény ismét a verembe tesszük.
 
 ### Ezek alapján egy példa:
   
@@ -42,9 +44,11 @@ Negyedik karakter: 5
 
     stack = [25]
 
-Ha minden jól ment, akkor csak a végeredmény marandt a veremben.
+Ha minden jól ment, akkor csak a végeredmény maradt a veremben.
 
     eredmény := stack.top()
+
+A C++ implementációban a fenti algoritmust használtam a "postfix2infix" függvény implementációjához. Annyi különbséggel, hogy az operandusok karakterek, egy adott művelet elvégzése pedig stringek konkatanációja.
 
 ## Infix jelölés átalakítása postfix jelöléssé
 
@@ -60,7 +64,7 @@ Előzetesen itt egy struktogramm, ha valaki pont ezt keresné.
 Balról jobbra haladunk a kifejezésen
 
  - Ha egy operandus jön velünk szembe, akkor azt hozzáadjuk a kimenethez.
- - Ha egy nyitott zárójel jön velünk szembe, akkor a verembe tesszük
+ - Ha egy nyitott zárójel jön velünk szembe, akkor a verembe tesszük.
  - Ha egy csukott zárójellel találkozunk, akkor addig szedjük ki és adjuk a kimenethez a verem elemeit, míg nyitott zárójellel nem találkozunk. Végül azt is kivesszük.
  - Ha operátorral találkozunk, akkor mindaddig szedjük és írjük ki a verem elemeit, míg alacsonyabb precedenciájú elemmel, vagy zárójellel nem találkozunk. Végül betesszük a kurrens operátort a verembe.
  - Utolsó lépésként kiírjuk az összes veremben maradt operátort.
