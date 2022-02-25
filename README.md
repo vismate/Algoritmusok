@@ -11,8 +11,8 @@ hogy használhatóak legyenek "real world" szituációkban is.
 Ha esetleg zavarnak a kommentek, és csak a kódot szeretnéd látni, (linux rendszer alatt) futtasd ezt a parancsot a fájlnevek behelyettesítésével.
 
 ```bash
-    cat filename | grep -v "//" > nocomment_filename
+cat filename | grep -v "//" > nocomment_filename
 ```
 
 
-Ha hibát találsz, vagy javaslatod lenne a már a repo-ban lévő kódhoz, nyiss egy issue-t itt githubon!
+Ha hibát találsz, vagy javaslatod lenne a már a repo-ban lévő kódhoz, nyiss egy issue-t itt, githubon!
