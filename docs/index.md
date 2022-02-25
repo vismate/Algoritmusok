@@ -12,3 +12,4 @@ hogy használhatóak legyenek "real world" szituációkban is.
 
  - [Lengyel jelölés](Lengyel.md)
  - [Összefésülő rendezés](MergeSort.md)
+ - [Gyors rendezés](QuickSort.md)
