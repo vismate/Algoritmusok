@@ -55,7 +55,7 @@ Ha a (rész) tömbünk legalább két elemű:
 
  - Stabil, tehát az egyenlő elemek relatív sorrendje nem változik meg a rendezés közben.
  - Nem helyben rendező, tehát extra memóriára van szüksége futás közben.
- - Komplexitás: $\Theta(n \  \log n)$
-    - A feljebb látott diagramon látszik, hogy a kirajzolt bináris fa $\log n$ szintel rendelkezik.
+ - Komplexitás: <strong>O(n * log n)</strong>
+    - A feljebb látott diagramon látszik, hogy a kirajzolt bináris fa <strong>log n </strong> szintel rendelkezik.
     - Minden egyes szinten összefésülünk, az összefésülés komplexitása pedig lineáris.
 - Nincs sok különbség a minimális és maximális műveletigény között, mindig a feljebb tárgyalt komplexitás érvényes.
