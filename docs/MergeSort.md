@@ -13,7 +13,7 @@ Ha a (rész) tömbünk legalább két elemű:
  - Rendezzük a jobb résztömböt (rekurzív hívás)
  - Összefésüljük őket
 
- ## Az összefésülés menete
+## Az összefésülés menete
 
   - A bal altömböt átmásoljuk egy temporális tömbbe.
   - Létrehozunk 2 változót: 'i' és ''j'. Az 'i' a jobb altömb elejére mutat, a 'j' a bal elejére.
@@ -25,10 +25,10 @@ Ha a (rész) tömbünk legalább két elemű:
 
   ![merge animation](/Algoritmusok/assets/MergeSortAnimation.gif)
 
-  ### Struktogramm
+### Struktogramm
   ![merge struki](/Algoritmusok/assets/MergeSortStruki.png)
 
-  ### Rövidített C++ kód
+### Rövidített C++ kód
   ```c++
   auto merge(std::vector<T> &vec, size_t begin, size_t mid, size_t end) -> void
 {
