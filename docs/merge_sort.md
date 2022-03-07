@@ -1,5 +1,5 @@
 # Összefésülő rendezés (merge sort)
-<sup>[C++ implementáció](https://github.com/vismate/Algoritmusok/blob/main/src/MergeSort.cpp)</sup>
+<sup>[C++ implementáció](https://github.com/vismate/Algoritmusok/blob/main/src/Sort/merge_sort.cpp)</sup>
 
 Ez az algoritmus az "oszd meg és uralkodj" elven működik. Ha feltételezzük hogy a tömbünk bal és jobb része rendezett, már csak annyi maradt hátra, hogy összefésüljök őket.  
 
@@ -23,10 +23,10 @@ Ha a (rész) tömbünk legalább két elemű:
   - Inkrementáljuk a k-t
   - Ha kiléptünk a while-ciklusból, átmásoljuk a bal altömb hátramaradt elemeit a jobb altömb végére.
 
-  ![merge animation](/Algoritmusok/assets/MergeSortAnimation.gif)
+  ![merge animation](/Algoritmusok/assets/merge_sort_animation.gif)
 
 ### Struktogramm
-  ![merge struki](/Algoritmusok/assets/MergeSortStruki.png)
+  ![merge struki](/Algoritmusok/assets/merge_struki.png)
 
 ### Rövidített C++ kód
   ```c++
@@ -49,7 +49,7 @@ Ha a (rész) tömbünk legalább két elemű:
 }
   ```
 ## Egy diagram az algoritmus működéséről
-  ![merge sort diagram](/Algoritmusok/assets/MergeSortDiagram.png)
+  ![merge sort diagram](/Algoritmusok/assets/merge_sort_diagram.png)
 
 ## Az algoritmus tulajdonságai
 

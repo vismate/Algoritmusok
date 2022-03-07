@@ -10,6 +10,6 @@ hogy használhatóak legyenek "real world" szituációkban is.
 
 ## Jegyzetek implementált algoritmusokhoz
 
- - [Lengyel jelölés](Lengyel.md)
- - [Összefésülő rendezés](MergeSort.md)
- - [Gyors rendezés](QuickSort.md)
+ - [Lengyel jelölés](lengyel.md)
+ - [Összefésülő rendezés](merge_sort.md)
+ - [Gyors rendezés](quick_sort.md)

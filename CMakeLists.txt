@@ -10,10 +10,11 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -Wshadow -Wunused")
 #LENGYEL
 #MERGE_SORT
 #QUICK_SORT
+#S1L
 
-add_compile_definitions(QUICK_SORT) # <- Írd ide
+add_compile_definitions(S1L) # <- Írd ide
 
-file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp *.hpp *.h *.c)
+file(GLOB_RECURSE SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp *.hpp)
 message(${SOURCES})
 
 add_executable(${PROJECT_NAME} ${SOURCES})

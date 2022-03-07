@@ -1,6 +1,6 @@
 # Lengyel jelölés (postfix notation) 
 
-<sup>[C++ implementáció](https://github.com/vismate/Algoritmusok/blob/main/src/Lengyel.cpp)</sup>
+<sup>[C++ implementáció](https://github.com/vismate/Algoritmusok/blob/main/src/lengyel.cpp)</sup>
 
 A lengyel jelölés lényege, hogy az operátorok az operandusai után vannak jelölve.
     
@@ -57,7 +57,7 @@ A folyamat hasonlít a feljebb tárgyalt kiértékeléshez, annyi különbségge
 ### Struktogramm
 Előzetesen itt egy struktogramm, ha valaki pont ezt keresné.
 
-![infix2postfix struki](/Algoritmusok/assets/LengyelStruki.png)
+![infix2postfix struki](/Algoritmusok/assets/lengyel_struki.png)
 
 ### Az algoritmus logikai lépései
 

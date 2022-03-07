@@ -1,7 +1,7 @@
 // Jegyzet: vismate.github.io/Algoritmusok/QuickSort
 
 #include <vector>
-#include "PrintVector.hpp" // Vektor kiíratás
+#include "print_vector.hpp" // Vektor kiíratás
 
 // Egy namespace, hogy elrejtsük valamelyest az implementáció részfüggvényeit.
 namespace _impl

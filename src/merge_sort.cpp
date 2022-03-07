@@ -3,7 +3,7 @@
 #include <iostream>
 #include <vector>
 
-#include "PrintVector.hpp" // Vektor kiíratás
+#include "print_vector.hpp" // Vektor kiíratás
 
 // Egy névtér, ami tartalmazza a segédfüggvényeket.
 // Ez csak arra való, hogy "elrejtsük" a nem implementálónak szánt dolgokat.
